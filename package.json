@@ -1,0 +1,22 @@
+{
+  "name": "dojo-cypress-dot",
+  "version": "1.0.0",
+  "description": "Dojô de testes automatizados com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotdigitalgroup/dojo-cypress-dot.git"
+  },
+  "author": "Lucas Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dotdigitalgroup/dojo-cypress-dot/issues"
+  },
+  "homepage": "https://github.com/dotdigitalgroup/dojo-cypress-dot#readme",
+  "devDependencies": {
+    "cypress": "^14.2.0"
+  }
+}
