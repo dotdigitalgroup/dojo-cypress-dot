@@ -25,10 +25,11 @@ Cypress é uma ferramenta moderna para automação de testes web e de API, conhe
 ## 🟡 Configuração do Projeto
 
 ### Passos Iniciais
-1. Criando um projeto do zero (`npm init` + `npm install cypress --save-dev`);
-2. Abrindo a interface do cypress pela primeira vez (`npx cypress open`);
-3. Explicando a estrutura de pastas (`cypress/integration`, `cypress/fixtures`, `cypress/support`);
-4. Configuração do `cypress.config.js`:
+1. Criar um projeto do zero (`npm init` + `npm install cypress --save-dev`), fazer um fork do projeto ou clonar o repositório do dojô diretamente (`git clone git@github.com:dotdigitalgroup/dojo-cypress-dot.git` + `npm install`);
+3. Abrir a interface do cypress pela primeira vez (`npx cypress open`);
+4. Criar o primeiro arquivo de testes na interface do cypress.
+5. Explicando a estrutura de pastas (`cypress/integration`, `cypress/fixtures`, `cypress/support`);
+6. Configuração do `cypress.config.js`:
    - **Timeouts**:
      - pageLoadTimeout (60000ms);
      - responseTimeout (5000ms);
@@ -46,7 +47,7 @@ Cypress é uma ferramenta moderna para automação de testes web e de API, conhe
 
 2. **Acessar tela de cadastro (CT02) e preencher formulário (CT03)**
    - Interação com diferentes tipos de campos;
-   - EXTRA: Geração de dados com faker.js;
+   - EXTRA: geração de CPF válido - 4devs;
 
 3. **Validação de campos obrigatórios (CT04)**
    - Teste de mensagens de erro em campos obrigatórios;
@@ -62,7 +63,8 @@ Cypress é uma ferramenta moderna para automação de testes web e de API, conhe
 - Ferramentas de depuração;
 - Uso adequado de `cy.wait()`;
 - Estruturação de testes (DRY, fixtures);
-- Organização do código.
+- Organização do código;
+- Geração de massa de dados aleatória - faker.js;
 
 ## Contribuição
 Sinta-se à vontade para contribuir com este projeto através de Pull Requests ou abrindo Issues para discussão.
